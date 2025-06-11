@@ -1,0 +1,16 @@
+# node_modules w root i we wszystkich subfolderach
+/node_modules
+**/node_modules
+
+# zmienne środowiskowe
+.env
+*.local
+
+# systemowe i edytorów
+.DS_Store
+.vscode/
+.idea/
+
+# logi
+npm-debug.log*
+yarn-debug.log*
